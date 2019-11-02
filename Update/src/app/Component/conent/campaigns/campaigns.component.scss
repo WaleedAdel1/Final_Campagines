@@ -1,0 +1,21 @@
+$redColor: #EC2326;
+.container{
+  .row{
+    button.btn {
+      background-color: #FFF;
+      border-radius: 5px;
+      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  }
+    button.filterButtons {
+      color: $redColor;
+      background-color: #FFF;
+      box-shadow: 0 4px 10px 0 $redColor;
+    }
+    .buttonsFilter{
+      display: flex;
+      justify-content: space-around;
+    }
+  }
+}
+
+
